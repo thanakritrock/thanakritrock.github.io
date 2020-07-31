@@ -1,0 +1,10 @@
+.table ,th, td {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    border: 1px solid black !important;
+}
+.show1, .show2 {
+    font-family: 'Cardo', serif;
+    padding-left: 70px;
+    font-size: larger;
+}

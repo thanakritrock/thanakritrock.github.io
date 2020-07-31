@@ -1,0 +1,35 @@
+.container-fluid .display-3{
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+    color: red;
+    text-align : center;
+}
+.container-fluid .display-4{
+    font-family: 'Charm', cursive;
+    padding-top: 20px;
+    text-align : center;
+}
+.container-fluid .menu1{
+    font-family: 'Charm', cursive;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.container-fluid .menu2{
+    font-family: 'Charm', cursive;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.bg-dark {
+    background: #4a7aff !important;
+}
+.nav-item {
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+
+}
+.text-center {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important; 
+}

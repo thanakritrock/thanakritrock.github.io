@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+                           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+                           crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="schedule.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">6110402770</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</span></a>
+            <a class="nav-item nav-link active" href="schedule.html">Schedule<span class="sr-only">(current)</a>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <h1 class="display-4">Welcome to my Schedule</h1>
+    </div>
+    <table style="table-layout: fixed; background-color: rgb(252, 222, 222) " class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col" colspan="2">Day\Time</th>
+          <th scope="col" colspan="2">08.00-09.00</th>
+          <th scope="col" colspan="2">09.00-10.00</th>
+          <th scope="col" colspan="2">10.00-11.00</th>
+          <th scope="col" colspan="2">11.00-12.00</th>
+          <th scope="col" colspan="2">12.00-13.00</th>
+          <th scope="col" colspan="2">13.00-14.00</th>
+          <th scope="col" colspan="2">14.00-15.00</th>
+          <th scope="col" colspan="2">15.00-16.00</th>
+          <th scope="col" colspan="2">16.00-17.00</th>
+          <th scope="col" colspan="2">17.00-18.00</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" colspan="2" >Sunday</th>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <th style="cursor:pointer" scope="row" colspan="2" 
+            onclick="document.getElementById('show').innerHTML=document.getElementById('Monday').innerHTML">Monday</th>
+          <td style="background-color: rgb(247, 168, 154); cursor:pointer " colspan="6"
+            onclick="document.getElementById('show1').innerHTML=document.getElementById('497').innerHTML">01418497(1) Seminar</td>
+          <td></td><td></td><td></td><td></td><td></td>
+          <td></td><td></td><td></td><td></td><td></td>
+          <td></td><td></td><td></td><td>
+        </tr>
+        <tr>
+          <th style="cursor:pointer" scope="row" colspan="2" 
+          onclick="document.getElementById('show').innerHTML=document.getElementById('Tuesday').innerHTML">Tuesday</th>
+          <td style="cursor:pointer" class="table-primary" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('442').innerHTML">01418442(1) Web Tech</td>
+          <td></td><td></td><td></td><td></td><td></td>
+          <td style="cursor:pointer" class="table-primary" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('442').innerHTML">01418442(11) Web Tech</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <th style="cursor:pointer" scope="row" colspan="2"
+          onclick="document.getElementById('show').innerHTML=document.getElementById('Wendesday').innerHTML">Wendesday</th>
+          <td></td><td></td><td></td>
+          <td style="cursor:pointer" class="table-success" colspan="3"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('341').innerHTML">01418341(5) IP</td>
+          <td></td><td></td>
+          <td style="cursor:pointer" class="table-warning" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('331').innerHTML">01418331(1) OS</td>
+          <td style="background-color: rgb(247, 179, 247); cursor:pointer;" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('321').innerHTML">01418321(1) SA</td>
+          <td style="background-color: rgb(247, 179, 247); cursor:pointer;" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('321').innerHTML">01418321(11) SA</td>
+        </tr>
+        <tr>
+          <th style="cursor:pointer" scope="row" colspan="2"
+           onclick="document.getElementById('show').innerHTML=document.getElementById('Thursday').innerHTML">Thursday</th>
+          <td style="background-color: rgb(252, 160, 160); cursor:pointer;" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('471').innerHTML">01418471(11) SE</td>
+          <td></td><td></td>
+          <td style="background-color: rgb(252, 160, 160); cursor:pointer;" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('471').innerHTML">01418471(1) SE</td>
+          <td style="cursor:pointer" class="table-info" colspan="6"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('382').innerHTML">01418382(1) CG ENVI</td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <th style="cursor:pointer" scope="row" colspan="2"
+          onclick="document.getElementById('show').innerHTML=document.getElementById('Friday').innerHTML">Friday</th>
+          <td></td><td></td><td></td>
+          <td style="cursor:pointer" class="table-success" colspan="3"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('341').innerHTML">01418341(5) IP</td>
+          <td></td><td></td>
+          <td style="cursor:pointer" class="table-warning" colspan="4"
+          onclick="document.getElementById('show1').innerHTML=document.getElementById('331').innerHTML">01418331(1) OS</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2">Saturday</th>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://cs.sci.ku.ac.th/" style="padding-left: 1000px; " target="_blank">ขอบคุณข้อมูลเพิ่มเติมจากเว็ปไซต์ cs.sci.ku.ac.th</a>
+    <h1 style="padding-left: 20px;font-family:  'Itim', cursive;"> วิชาที่ต้องเรียนวันนี้ : </h1>
+    <div class="show1">
+    <p id="show"></p>
+    <p id="Monday"style="display:none">01418497 Seminar หมู่ 5 เวลา 8.00 - 11.00 น. </p> 
+    <p id="Tuesday"style="display:none"> 
+      01418442 Web Technology and Web Services หมู่ 1 &nbsp; เวลา 8.00 - 10.00 น.<br/>
+      01418442 Web Technology and Web Services หมู่ 11 เวลา 12.30 - 14.30 น. </p>
+    <p id="Wendesday"style="display:none"> 
+      01418341 Intellectual Properties and Professional Ethics หมู่ 1 เวลา 09.30 - 11.00 น. <br/>
+      01418331 Operating Systems หมู่ 1 เวลา 12.00 - 14.00 น.<br/>
+      01418321 System Analysis and Design หมู่ 1 เวลา 14.00 - 16.00 น.<br/>
+      01418321 System Analysis and Design หมู่ 11 เวลา 16.00 - 18.00 น.<br/>
+    </p>
+    <p id="Thursday"style="display:none"> 
+      01418471 Introduction to Software Engineering หมู่ 11 เวลา 08.00 - 10.00 น. <br/>
+      01418471 Introduction to Software Engineering หมู่ 1 เวลา 11.00 - 13.00 น. <br/>
+      01418382 Computer Graphics Working Environment หมู่ 1 เวลา 13.00 - 16.00 น.<br/></p>
+    <p id="Friday"style="display:none">
+      01418341 Intellectual Properties and Professional Ethics หมู่ 1 เวลา 09.30 - 11.00 น. <br/>
+      01418331 Operating Systems หมู่ 1 เวลา 12.00 - 14.00 น.<br/></p>
+    </div>
+    <h1 style="padding-left: 20px;font-family:  'Itim', cursive;"> รายละเอียดเพิ่มเติมรายวิชา : </h1>
+    <div class="show2">
+    <p id="show1"> </p>
+    <p id="497"style="display:none">
+      01418497 สัมมนา <br/>
+      (Seminar) <br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 1 <br/>
+      วิชาพื้นฐาน: 01418216 หรือ 01418221 หรือ 01418232 <br/><br/>
+      การนำเสนอและอภิปรายหัวข้อที่น่าสนใจทางวิทยาการคอมพิวเตอร์ ในระดับปริญญาตรี <br/><br/>
+      Presentation and discussion on current interesting topics in computer science at the bachelor’s degree level.</p>
+    <p id="442"style="display:none">
+      01418442 เว็บเทคโนโลยีและเว็บบริการ <br/>
+      (Web Technology and Web Services) <br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 3(2-2-5) <br/>
+      วิชาที่ต้องเรียนมาก่อน: 01418211 <br/><br/>
+      &nbsp; หลักการเว็บเทคโนโลยีและเว็บบริการ ข้อกำหนดมาตรฐานของเว็บเทคโนโลยี <br/>
+      สถาปัตยกรรมและส่วนประกอบ ลักษณะการทำงานและกลไกของระบบเว็บบริการ  <br/>
+      การพัฒนาโปรแกรมสำเร็จรูปเว็บเทคโนโลยีลักษณะการทำงานและโครงแบบเอพีไอ <br/><br/>
+      &nbsp; Principles of Web technology and services. Standard specification <br/>
+      of technology. Architecture and components. Functionalities and <br/>
+      mechanisms of Web services systems. Development of Web <br/>
+      technology packages. API’s functionalities and configurations.</p>
+    <p id="341"style="display:none">
+      01418341 ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ <br/>
+      (Intellectual Properties and Professional Ethics) <br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 3(3-0-6)<br/><br/>
+      &nbsp; ประเภทของทรัพย์สินทางปัญญา การได้มาซึ่งลิขสิทธิ์ สิทธิแต่เพียงผู้เดียว<br/>
+      ของเจ้าของลิขสิทธิ์การละเมิดลิขสิทธิ์ การใช้โดยธรรม ใบอนุญาต<br/>
+      ของซอฟต์แวร์เสรีใบอนุญาต ของซอฟต์แวร์เปิดเผยรหัส ใบอนุญาตให้ใช้<br/>
+      โปรแกรมคอมพิวเตอร์ ครีเอทีฟคอมมอนส์สิทธิบัตร เครื่องหมายการค้าและ<br/>
+      เครื่องหมายการบริการ นโยบายส่วนบุคคล อาชญากรรมคอมพิวเตอร์กรณีศึกษา<br/><br/>
+      &nbsp;Categories of intellectual property. Acquisition of copyright.<br/>
+      Exclusive rights of copyright holder. Copyright infringement.<br/>
+      Fair use. Free software license. Open source software license.<br/>
+      Shrink wrap license. Creative Commons. Patent. Trade mark and service mark.<br/>
+      Privacy policy. Computer crime. Case studies.</p>
+    <p id="331"style="display:none">
+      01418331 ระบบปฏิบัติการ <br/>
+      (Operating Systems) <br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 4(4-0-8) <br/>
+      วิชาที่ต้องเรียนมาก่อน: 01418233 <br/><br/>
+      &nbsp;พัฒนาการของสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้าง <br/>
+      ระบบปฏิบัติการ กระบวนการและสายโยงใย การจัดกำหนดการ การติดตาย <br/>
+      ลำดับขั้นของหน่วยความจำ การจัดการหน่วยความจำ หน่วยความจำเสมือน <br/>
+      การจัดการระบบแฟ้ม การจัดการระบบรับเข้า/ส่งออก ความมั่นคง การป้องกัน <br/>
+      ระบบปฏิบัติการแบบกระจาย <br/><br/>
+      &nbsp;Development of computer architecture and operating systems.<br/>
+      Operating system structure. Processes and threads. Scheduling.<br/>
+      Deadlocks. Memory hierarchy. Memory management. Virtual memory.<br/>
+      File system management. Input/output system management. Security.<br/>
+      Protection. Distributed operating systems.</p>
+    <p id="321"style="display:none">
+      01418321 การวิเคราะห์และการออกแบบระบบ <br/>
+      (System Analysis and Design)<br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 3(2-2-5)<br/>
+      วิชาพื้นฐาน: 01418221<br/><br/>
+      &nbsp;ขั้นตอนวิเคราะห์เบื้องต้น เครื่องมือในการวิเคราะห์ระบบ ผังระบบงาน ตาราง<br/>
+      การตัดสินและต้นไม้การตัดสิน การศึกษาความเป็นไปได้ของปัญหา การวิเคราะห์ความคุ้มค่าในการ<br/>
+      ลงทุน นำเข้า ส่งออกและการออกแบบ การออกแบบวิธีการประมวลผลด้วยคอมพิวเตอร์ การทำเอกสาร การนำไปใช้และ<br/>
+      การประเมินผล การพิสูจน์ การออกแบบ กรณีศึกษา<br/><br/>
+      &nbsp;Basic analysis steps, system analysis tools, systems flowchart,<br/>
+      decision table and decision tree, feasibility study, cost effective<br/>
+      analysis, input, output and design, computer process design, documentation,<br/>
+      implementation and evaluation, proving the design, case studies.</p>
+    <p id="471"style="display:none">
+      01418471 วิศวกรรมซอฟต์แวร์เบื้องต้น
+      (Introduction to Software Engineering)
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 3(2-2-5)
+      วิชาพื้นฐาน: 01418221
+      &nbsp;หลักการวิศวกรรมซอฟต์แวร์ ตัวแบบกระบวนการทางซอฟต์แวร์ วิศวกรรมความต้องการ<br/>
+      การสร้างตัวแบบซอฟต์แวร์ การออกแบบซอฟต์แวร์ สถาปัตยกรรมซอฟต์แวร์ การออกแบบแบบรูป<br/>
+      ส่วนต่อประสานผู้ใช้ การทวนสอบและการตรวจสอบความสมเหตุสมผลของซอฟต์แวร์ การประกันคุณภาพ<br/>
+      การบริหารโครงการซอฟต์แวร์<br/><br/>
+      &nbsp;Software engineering principles, software process models, requirement engineering,<br/>
+      software modeling, software design, software architecture, pattern-based design,<br/>
+      user interfaces, software verification and validation, quality assurance, software<br/>
+      project management.</p><br/>
+    <p id="382"style="display:none">
+      01418382 สภาพแวดล้อมการทางานด้านคอมพิวเตอร์กราฟิกส์<br/>
+      (Computer Graphics Working Environment)<br/>
+      หน่วยกิต (บรรยาย-ปฎิบัติการ): 3(3-0-6)<br/>
+      วิชาพื้นฐาน: 01418116<br/><br/>
+      &nbsp;การพัฒนาโปรแกรมภายใต้สภาพแวดล้อมการทำงานด้านคอมพิวเตอร์กราฟิกส์<br/>
+      การเตรียมระบบ ซอฟต์แวร์อรรถประโยชน์ โครงสร้างข้อมูลทางคอมพิวเตอร์กราฟิกส์<br/>
+      การเชื่อมประสานสาหรับผู้ใช้ด้านกราฟิกส์ และโอเพนจีแอล<br/><br/>
+      &nbsp;Program development under computer graphics working environments,<br/>
+      system preparation, utility software, data structures in computer<br/>
+      graphics, graphical user interfaces, and OpenGL.</p>
+  </div>
+    
+</body>
+</html>
